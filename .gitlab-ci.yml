@@ -1,0 +1,7 @@
+stages:
+  - greet
+
+hello_world_job:
+  stage: greet
+  script:
+    - echo "Hello, World!"
